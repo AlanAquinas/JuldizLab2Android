@@ -3,22 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_host_fragment"
-    app:startDestination="@id/itemFragment">
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.multiscreenapp.fragment.SearchFragment"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_itemFragment"
+            app:destination="@id/itemFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/itemFragment"
         android:name="com.example.multiscreenapp.fragment.ItemFragment"
-        android:label="fragment_item_list"
         tools:layout="@layout/fragment_item_list" >
-        <action
-            android:id="@+id/action_itemFragment_to_celebrity_details_fragment"
-            app:destination="@id/celebrityDetailsFragment" />
+
+        <argument
+            android:name="searchText"
+            app:argType="string" />
     </fragment>
-    <fragment
-        android:id="@+id/celebrityDetailsFragment"
-        android:name="com.example.multiscreenapp.fragment.CelebrityDetailsFragment"
-        android:label="celebrity_details_fragment"
-        tools:layout="@layout/celebrity_details_fragment" />
 
 
 </navigation>
