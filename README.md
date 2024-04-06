@@ -10,15 +10,6 @@ This project utilizes the Celebrity API to fetch information about celebrities f
 4. Implementation of search functionality for enhanced user experience.
 5. Ensuring a responsive and user-friendly interface.
 
-## Application Structure
-
-The project structure is organized as follows:
-
-- **app** folder contains the main application code.
-- **assets** folder includes external resources such as images or data files.
-- **src** directory holds the Java/Kotlin source code.
-- **res** directory contains Android resources such as layouts, strings, and drawables.
-
 ## How to Use
 
 1. Clone the repository to your local machine.
