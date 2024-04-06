@@ -16,16 +16,6 @@ This project utilizes the Celebrity API to fetch information about celebrities f
 2. Open the project in Android Studio.
 3. Build and run the application on an Android device or emulator.
 
-## Screenshots
 
-Include screenshots or GIFs showcasing different aspects of your application, such as the RecyclerView displaying celebrity data and the search functionality in action.
+https://github.com/AlanAquinas/JuldizLab2Android/assets/116744376/45dad0fa-c95d-4fe9-a8be-91bc792ebe7a
 
-## Additional Notes
-
-Feel free to add any additional information or notes about the project, such as future improvements or known issues.
-
-For more details, refer to the [Project Wiki](wiki-link-here) or contact the project maintainer.
-
----
-
-[![App Demo](https://github.com/AlanAquinas/JuldizLab2Android/assets/116744376/2e945d4b-89d2-4779-b21a-12e1524fa45a)](https://github.com/AlanAquinas/JuldizLab2Android)
